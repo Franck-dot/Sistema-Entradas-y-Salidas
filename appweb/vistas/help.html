@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" type="image/png" href="../img/logo_pequeño.png" />
+
+        <title>Hoja de Ayuda</title>
+        
+    </head>
+    <body>
+        <div>
+            <h2>apartado "Personal"</h2>
+            <p>
+                Dentro del apartado Personal, solo es para administrar el personal, y dentro del cual solo se podran realizar tareas como: 
+            </p>
+            <p>
+                Agragar nuevo personal, editar, buscar, eliminar e imprimir. 
+            </p>
+
+            <h2>apartado "Vehiculos"</h2>
+            <p>
+                Dentro del apartado Vehiculos, solo es para administrar los Vehiculos, y dentro del cual solo se podran realizar tareas como: 
+            </p>
+            <p>
+                Agragar nuevo Vehiculos, editar, buscar, eliminar e imprimir. 
+            </p>
+
+            <h2>apartado "Reportes"</h2>
+            <p>
+                la tabla de reportes contiene continene varios apartados para poder filtrar datos. por ejemplo:
+            </p>
+            <h3><p> si se quiere requiere imprimir los vehiculos que no entraron la noche anterior.</p></h3>
+            <p> 
+                el procedimiento seria: dentro del apartado de busqueda, en la columna "hora de entrada" 
+                debera ingresar solo algunos ceros "0", que representan que aun no hay un registro de la hora de entrada. 
+            </p>
+            <p> 
+                Si los resultados son demasiados, puede filtrarlos de nuevo conbinando alguna otra columna, por ejemplo: 
+            </p>
+            <h3><p> si se quiere requiere imprimir los vehiculos que no entraron la noche anterior con el nombre del perosonal.</p></h3>
+            <p> 
+                el procedimiento seria: dentro del apartado de busqueda, en la columna "hora de entrada" 
+                debera ingresar solo algunos ceros "0". ahora usando el ejemplo anterior, 
+                supongamos que sabemos el nombre de la persona que utilizo el vehiculo, bastaria con colocar el nombre de la 
+                persona quien utilizo el vehiculo en la columna indicada como "Nombre". 
+            </p>    
+            <p> 
+                De esta manera es que se podrian convinar varias columnas para poder conseguir distintos resultados. 
+            </p>
+            
+            <h2>apartado "Asignacion de QR"</h2>
+            <p>
+                Este apartado solo contiene un pequeño formulario, el cual crea los codigos QR.
+            </p>
+            <p>
+                La explicacion basica es la siguiente:
+            </p>
+            <p>
+                ++  En el apartado "Informacion" se coloca el "id" o identificador del usuario. ejemplo: El Usuario Francisco 
+                    tiene el numero de empledo "2000". En el ejemplo anterior "2000" seria su numero identificador.
+            </p>
+            <p>
+                ++  En el sigueinte apartado es el nivel ECC, que significa nivel de recuperacion de datos. 
+                Existen 4 opciones, por defecto muestra "H", y es lo recomendado para no tener errores de redundancia de datos.  
+            </p>
+            <p>
+                ++  EL apartado siguinte, es la calidad con la que se muestra y se almacena el codigo QR, el rango es de 1 al 10,
+                donde 1 es la peor calidad y podria causar errores de escaeo y 10 la mejor calidad. la recomendada es "5" para que
+                los codigos no requieran tanto espacio de almacenamiento.
+            </p>
+        </div>
+    </body>
+</html>
